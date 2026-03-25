@@ -61,7 +61,7 @@ export function Navbar() {
             className={cn(
               "relative flex items-center gap-2 rounded-full border px-2 py-2 transition-all duration-500",
               isScrolled
-                ? "border-border/50 bg-background/80 backdrop-blur-2xl shadow-lg shadow-black/20 shadow-[0_4px_30px_oklch(0.55_0.25_290_/_0.05)]"
+                ? "border-border/50 bg-background/80 backdrop-blur-2xl shadow-black/20 shadow-[0_4px_30px_oklch(0.55_0.25_290/0.05)]"
                 : "border-border/30 bg-background/50 backdrop-blur-xl",
             )}
           >
