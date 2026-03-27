@@ -86,6 +86,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <link rel="preload" href="/icon.svg" as="image" />
+      </head>
       <body className={`${inter.variable} ${geist.variable} font-body antialiased`}>
         <SkipToContent />
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
