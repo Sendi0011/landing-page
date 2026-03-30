@@ -29,8 +29,8 @@ export function FeaturesGrid() {
         whileInView="visible"
         viewport={{ once: true, amount: 0.2 }}
       >
-        <motion.div variants={staggerItem}>
-          <Card className="glass-card gradient-border border-0 p-8 md:col-span-2 md:row-span-2 flex flex-col justify-between rounded-3xl group hover:shadow-2xl transition-all duration-500 will-change-transform relative overflow-hidden">
+        <motion.div variants={staggerItem} className="md:col-span-2 md:row-span-2">
+          <Card className="glass-card gradient-border border-0 p-8 h-full flex flex-col justify-between rounded-3xl group hover:shadow-2xl transition-all duration-500 will-change-transform relative overflow-hidden">
             <div className="absolute inset-0 gradient-mesh opacity-40 pointer-events-none" />
             <div className="relative z-10">
               <div className="mb-6 flex h-14 w-14 items-center justify-center rounded-2xl icon-gradient border border-primary/20 group-hover:scale-110 group-hover:glow-sm transition-all duration-300">
@@ -69,8 +69,8 @@ export function FeaturesGrid() {
           </Card>
         </motion.div>
 
-        <motion.div variants={staggerItem}>
-          <Card className="glass-card gradient-border border-0 p-6 rounded-3xl group hover:shadow-xl hover:shadow-cyan-500/5 hover:-translate-y-1 transition-all duration-300 will-change-transform relative overflow-hidden">
+        <motion.div variants={staggerItem} className="h-full">
+          <Card className="glass-card gradient-border border-0 p-6 h-full rounded-3xl group hover:shadow-xl hover:shadow-cyan-500/5 hover:-translate-y-1 transition-all duration-300 will-change-transform relative overflow-hidden">
             <div className="absolute top-0 inset-x-0 h-[2px] bg-gradient-to-r from-cyan-500/0 via-cyan-500 to-cyan-500/0" />
             <div>
               <div className="mb-4 flex h-11 w-11 items-center justify-center rounded-xl icon-gradient border border-primary/20 group-hover:scale-110 transition-transform duration-300">
@@ -85,8 +85,8 @@ export function FeaturesGrid() {
           </Card>
         </motion.div>
 
-        <motion.div variants={staggerItem}>
-          <Card className="glass-card gradient-border border-0 p-6 rounded-3xl group hover:shadow-xl hover:shadow-green-500/5 hover:-translate-y-1 transition-all duration-300 will-change-transform relative overflow-hidden">
+        <motion.div variants={staggerItem} className="h-full">
+          <Card className="glass-card gradient-border border-0 p-6 h-full rounded-3xl group hover:shadow-xl hover:shadow-green-500/5 hover:-translate-y-1 transition-all duration-300 will-change-transform relative overflow-hidden">
             <div className="absolute top-0 inset-x-0 h-[2px] bg-gradient-to-r from-green-500/0 via-green-500 to-green-500/0" />
             <div>
               <div className="mb-4 flex h-11 w-11 items-center justify-center rounded-xl icon-gradient border border-primary/20 group-hover:scale-110 transition-transform duration-300">

@@ -20,7 +20,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL!),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://intmoney.com"),
   title: "IntMoney - AI-Powered Cross-Border Payments",
   description:
     "The AI-powered mobile wallet for seamless cross-border payments using simple chat or voice commands. Built on Stellar.",
